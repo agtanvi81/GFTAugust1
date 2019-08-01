@@ -29,6 +29,7 @@ public class Logintest {
 		System.out.println("user enters username and password");
 		object.usern.sendKeys("tomsmith");
 		object.passw.sendKeys("SuperSecretPassword!");
+		System.out.println("test");
 	}
 
 	@When("Click on login button")
