@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-01T05:01:22.150Z",
+        "line": 3,
+        "name": "login functionality with valid credentials",
+        "description": "",
+        "id": "test-login-functionality-of-heroku-app;login-functionality-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13104089900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "Logintest.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241380500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password",
+            "match": {
+              "location": "Logintest.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 719897900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "Logintest.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logged in successfully",
+            "match": {
+              "location": "Logintest.user_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test login functionality of heroku app",
+    "description": "",
+    "id": "test-login-functionality-of-heroku-app",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": []
+  }
+]
